@@ -1,6 +1,6 @@
 package v1
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	k8s.Register("apiregistration.k8s.io", "v1", "apiservices", false, &APIService{})

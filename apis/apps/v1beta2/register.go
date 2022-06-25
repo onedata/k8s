@@ -1,6 +1,6 @@
 package v1beta2
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	k8s.Register("apps", "v1beta2", "controllerrevisions", true, &ControllerRevision{})

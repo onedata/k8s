@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/sourcegraph/k8s"
+	"github.com/onedata/k8s"
 
 	"github.com/ghodss/yaml"
 )

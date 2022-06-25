@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sourcegraph/k8s"
+	"github.com/onedata/k8s"
 )
 
 func TestDiscovery(t *testing.T) {

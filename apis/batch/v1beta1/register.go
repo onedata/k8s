@@ -1,6 +1,6 @@
 package v1beta1
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	k8s.Register("batch", "v1beta1", "cronjobs", true, &CronJob{})

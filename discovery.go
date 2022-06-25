@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	metav1 "github.com/sourcegraph/k8s/apis/meta/v1"
+	metav1 "github.com/onedata/k8s/apis/meta/v1"
 )
 
 type Version struct {

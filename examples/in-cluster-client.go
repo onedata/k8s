@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sourcegraph/k8s"
-	corev1 "github.com/sourcegraph/k8s/apis/core/v1"
+	"github.com/onedata/k8s"
+	corev1 "github.com/onedata/k8s/apis/core/v1"
 )
 
 func listNodes() {

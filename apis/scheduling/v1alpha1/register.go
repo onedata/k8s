@@ -1,6 +1,6 @@
 package v1alpha1
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	k8s.Register("scheduling.k8s.io", "v1alpha1", "priorityclasses", false, &PriorityClass{})

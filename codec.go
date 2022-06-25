@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/sourcegraph/k8s/runtime"
+	"github.com/onedata/k8s/runtime"
 )
 
 const (

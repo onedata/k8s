@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/k8s"
-	corev1 "github.com/sourcegraph/k8s/apis/core/v1"
-	metav1 "github.com/sourcegraph/k8s/apis/meta/v1"
+	"github.com/onedata/k8s"
+	corev1 "github.com/onedata/k8s/apis/core/v1"
+	metav1 "github.com/onedata/k8s/apis/meta/v1"
 )
 
 const skipMsg = `

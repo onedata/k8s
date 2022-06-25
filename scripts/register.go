@@ -309,7 +309,7 @@ type templateResource struct {
 
 var tmpl = template.Must(template.New("").Parse(`package {{ .Package }}
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	{{- range $i, $r := .Resources -}}

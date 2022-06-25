@@ -1,6 +1,6 @@
 package v1beta1
 
-import "github.com/sourcegraph/k8s"
+import "github.com/onedata/k8s"
 
 func init() {
 	k8s.Register("admissionregistration.k8s.io", "v1beta1", "mutatingwebhookconfigurations", false, &MutatingWebhookConfiguration{})

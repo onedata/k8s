@@ -24,8 +24,8 @@
 package v1
 
 import (
-	"github.com/sourcegraph/k8s/runtime"
-	_ "github.com/sourcegraph/k8s/runtime/schema"
+	"github.com/onedata/k8s/runtime"
+	_ "github.com/onedata/k8s/runtime/schema"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

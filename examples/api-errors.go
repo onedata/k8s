@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/sourcegraph/k8s"
-	"github.com/sourcegraph/k8s/apis/core/v1"
-	metav1 "github.com/sourcegraph/k8s/apis/meta/v1"
+	"github.com/onedata/k8s"
+	"github.com/onedata/k8s/apis/core/v1"
+	metav1 "github.com/onedata/k8s/apis/meta/v1"
 )
 
 // createConfigMap creates a configmap in the client's default namespace
